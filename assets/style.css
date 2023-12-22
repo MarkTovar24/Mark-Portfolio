@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color:wheat;
+    border-color: rgb(38, 85, 216);
+    font-size: 150%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(76, 174, 219);
+}
+
+
+.title-header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align:left;
+    font-size: 3rem;
+    padding: 1.2em;
+    background-color: rgb(10, 85, 172);
+    color:aliceblue;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.workbox-header {
+    font-size:2rem;
+    text-align:center;
+}
+
+.workbox-sub-header {
+    font-size:1.2rem;
+    text-align:center;
+}
+
+
+
+.workbox {
+    flex: 1 50%;
+    
+    /* max-inline-size: 100%;
+    margin-left: 50rem;
+    justify-content: center;
+    object-fit: cover;
+    display:inline-block;
+    border: 15px;
+    padding: 50px solid wheat;
+    margin: 20px; */
+}
+
+
+#non-feat-work {
+    margin:0 auto;
+    max-width: 950px ;
+    width: 90%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+
+}
+
+
+
+
+#about-me {
+    text-align:center;
+    font-size: 3rem;
+    padding: 2rem;
+    background-color: aquamarine;
+    margin-top: 0px;
+}
+
+#about-me-para {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#feat-work {
+    text-align: center;
+}
+
+#contact-items {
+
+}

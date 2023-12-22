@@ -5,30 +5,42 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=devie-width, initial-scale=1.0">
         <title>Mark's Portfolio</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./assets/style.css">
     </head>
 
     <body>
         <header>
-            <h1 id="Title-header">My Portfolio!</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                </ul>
+            <h1 class="title-header">My Portfolio!</h1>
+            <nav class="toplist">
+               <button><a href="#about-me">About Me</a></button>
+               <button><a href="#work">Work</a></button>
+               <button><a href="#contact-me">Contact Me</a></button>
+               <button><a href="#resume">Resume</a></button>
             </nav>
         </header>
+
+
         <section>
             <h1 id="about-me">About Me!</h1>
-            <p>Lorem ipsum dolor sit amet, mel tamquam omnesque suscipiantur ne, tantas accumsan suscipit est ea. Autem soluta facilisis ei nec, usu eu fabulas debitis consulatu, cu quodsi intellegat adipiscing eum. Has minimum cotidieque id, pri ea impetus erroribus incorrupte. Id sed illum aliquid, quem brute accusata per ne. Prima justo mollis an per, vel cu movet erroribus.</p>
+            <p id="about-me-para">Lorem ipsum dolor sit amet, mel tamquam omnesque Lorem ipsum dolor sit amet, mel tamquam omnesque suscipiantur ne, tantas accumsan suscipit est ea. Autem soluta facilisis ei nec, usu eu fabulas debitis consulatu, cu quodsi intellegat adipiscing eum. Has minimum cotidieque id, pri ea impetus erroribus incorrupte. Id sed illum aliquid, quem brute accusata per ne. Prima justo mollis an per, vel cu movet erroribus. suscipiantur ne, tantas accumsan suscipit est ea. Autem soluta facilisis ei nec, usu eu fabulas debitis consulatu, cu quodsi intellegat adipiscing eum. Has minimum cotidieque id, pri ea impetus erroribus incorrupte. Id sed illum aliquid, quem brute accusata per ne. Prima justo mollis an per, vel cu movet erroribus.</p>
         </section>
 
         <aside id="sidebar">
             <h1>My Work!</h1>
         </aside>
 
+        <section id="feat-work">
+            <div class="workbox-header">
+                Refactor Horiseon
+            </div> 
+            <p class="workbox-sub-header">
+                I refactored This webpage while keeping its origional form!
+            </p>
+            <a href="https://marktovar24.github.io/Refactor-horiseon/"><img src="./assets/Images/Refactor image.PNG" alt="placeholder photo"/></a>
+            
+            
+        </section>
+        <section id="non-feat-work">
         <section class="workbox">
             <div class="workbox-header">
                 Example
@@ -36,7 +48,7 @@
             <p class="workbox-sub-header">
                 Lorem ipsum dolor sit amet
             </p>
-            <img src="./Images/placeholder-image-1.webp" alt="placeholder photo"/>
+            <img src="./assets/Images/placeholder-image-1.webp" alt="placeholder photo"/>
             
         </section>
 
@@ -47,7 +59,7 @@
             <p class="workbox-sub-header">
                 Lorem ipsum dolor sit amet
             </p>
-            <img src="./Images/placeholder-image-1.webp" alt="placeholder photo"/>
+            <img src="./assets/Images/placeholder-image-1.webp" alt="placeholder photo"/>
             
         </section>
 
@@ -58,7 +70,7 @@
             <p class="workbox-sub-header">
                 Lorem ipsum dolor sit amet
             </p>
-            <img src="./Images/placeholder-image-1.webp" alt="placeholder photo"/>
+            <img src="./assets/Images/placeholder-image-1.webp" alt="placeholder photo"/>
             
         </section>
 
@@ -69,37 +81,26 @@
             <p class="workbox-sub-header">
                 Lorem ipsum dolor sit amet
             </p>
-            <img src="./Images/placeholder-image-1.webp" alt="placeholder photo"/>
+            <img src="./assets/Images/placeholder-image-1.webp" alt="placeholder photo"/>
             
         </section>
-
-        <section class="workbox">
-            <div class="workbox-header">
-                Example
-            </div> 
-            <p class="workbox-sub-header">
-                Lorem ipsum dolor sit amet
-            </p>
-            <img src="./Images/placeholder-image-1.webp" alt="placeholder photo"/>
-            
         </section>
 
-
-        <aside class="contact-header">
+        <aside id="contact-me">
             <h1>
                 Contact me!
             </h1>
         </aside>
 
-        <section class="contact-items">
-            <nav>
-                <ul>
-                    <li><a href="#phone-number">913-333-8818</a></li>
-                    <li><a href="#email-adress">markjtovar24@gmail.com</a></li>
-                    <li><a href="#github">GitHub</a></li>
+        <section id="contact-items">
+            <h3>
+                
+                    <button>913-333-8818</button>
+                    <button><a href="mailto:markjtovar24@gmail.com">markjtovar24@gmail.com</a></button>
+                    <button><a href="https://www.github.com/MarkTovar24">GitHub</a></button>
                     
-                </ul>
-            </nav>
+                
+            </h3>
         </section>
     </body>
 
